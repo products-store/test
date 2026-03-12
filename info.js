@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Discord Webhook URL - IMPORTANT: In a real production app, this should be sent from a backend server, not directly from frontend.
-    const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1390378331488391261/FyhtoHaCCLXtdGoBZyvSPSoHUPsZn5LS0R9FxwbA7ehJH0mRT_drtftCD9SYd07ncVuT';
+    const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1481703762274947106/Bda8WkM_WQyKA9_RbJBwjDoqBrl-fxxB4zYyJqApA5c1NLVQv6jc3q8yCuIqZc-afe_Y';
 
     // Data for Algerian Wilayas (Provinces) and delivery prices
     const wilayaPrices = [
@@ -432,4 +432,5 @@ fbq('track', 'Purchase', {
     communeInput.addEventListener('input', saveInfoOnInput);
     heightInput.addEventListener('input', saveInfoOnInput);
     weightInput.addEventListener('input', saveInfoOnInput);
+
 });
